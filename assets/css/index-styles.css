@@ -1,16 +1,36 @@
 .lista {
     list-style: none;
     color: white;
+    font-size: 15px;
 }
 .foto-nav {
     width: 90%;
+    padding-bottom: 20cm;
 }
+.dropdown-menu {
+  position: absolute;
+  top: 100%; /* o la distancia necesaria desde la parte superior del contenedor padre */
+  left: 0;
+  display: none;
+  z-index: 1000; /* o un valor suficientemente alto para que esté por encima de otros elementos */
+}
+
+.dropdown-menu.show {
+  display: block;
+}
+.navbar {
+  height: 70px;
+}
+
+
 #Hero-Section {
     background-image: url("../imgs/fondo-cabecera.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
+    padding-top: 0px;
   }
+
   .contenedor {
     background-color:#373a3c;
     opacity: 70%;
