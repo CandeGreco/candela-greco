@@ -5,3 +5,14 @@
 .foto-nav {
     width: 90%;
 }
+#Hero-Section {
+    background-image: url("../imgs/fondo-cabecera.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+  }
+  .contenedor {
+    background-color:#373a3c;
+    opacity: 70%;
+    color: white;
+  }
