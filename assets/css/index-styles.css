@@ -1,10 +1,7 @@
+/* NAVEGADOR */
+
 nav {
   background-color: #f3c9cb;
-}
-.lista {
-  list-style: none;
-  color: black;
-  font-size: 15px;
 }
 .navegador {
   width: 100%;
@@ -12,11 +9,14 @@ nav {
   justify-content: center;
   align-items: center;
 }
-
-.navbar {
-  height: 70px;
-  padding-bottom: 5rem;
+.lista {
+  list-style: none;
+  color: black;
+  font-size: 15px;
 }
+
+/* HEADER */
+
 #Hero-Section {
   background-image: url("../imgs/fondo-cabecera.png");
   background-repeat: no-repeat;
@@ -38,4 +38,10 @@ nav {
 }
 .bienvenida {
   color: black;
+}
+
+/* EDUCACION */
+
+.educacion {
+  display: flex;
 }
