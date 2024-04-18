@@ -26,22 +26,25 @@ nav {
 }
 .foto-perfil{
   border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
+  width: 200px;
+  height: 200px;
 }
 .contenedor {
   text-align: center;
-  background-color: #373a3c;
+  background-color: black;
   opacity: 70%;
   color: white;
 }
-.bienvenida {
+
+/* CONOCIMIENTOS */
+
+.conocimientos {
+  display: flex;
+  text-align: center;
+  background: #f3c9cb;
+  opacity: 70%;
   color: black;
 }
-
-/* EDUCACION */
-
-.educacion {
-  display: flex;
+.texto {
+  padding: 3rem;
 }
